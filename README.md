@@ -11,7 +11,7 @@ Este é um jogo simples onde o objetivo é adivinhar um número secreto gerado a
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 
 
-Descrição do Projeto
+## Descrição do Projeto
 O jogo gera um número secreto aleatório entre 1 e 100. O jogador tenta adivinhar o número falando seus palpites em voz alta. O jogo usa a API de reconhecimento de voz do navegador para capturar o palpite do jogador. A cada tentativa, o jogo indica se o número secreto é maior ou menor que o palpite dado. Quando o número é acertado, o jogo exibe uma mensagem de vitória e oferece a opção de jogar novamente.
 
 
@@ -39,13 +39,15 @@ Abra o arquivo index.html em um navegador.
 
 
 ## Estrutura do Projeto
-- ├── index.html             # Página principal do jogo
-- ├── style.css              # Estilos para a página
-- └── app/
-    - ├── sortearNumero.js   # Lógica para gerar o número secreto e exibir os valores mínimos e máximos
-    - ├── reconhecimentoDeVoz.js # Lógica para capturar e processar o comando de voz do usuário
-    - └── validacao.js       # Lógica para validar o palpite do usuário e interagir com a interface do jogo
-
+```
+/
+ ├── index.html             // Página principal do jogo
+ ├── style.css              // Estilos para a página
+ └── app/
+     ├── sortearNumero.js   // Lógica para gerar o número secreto e exibir os valores mínimos e máximos
+     ├── reconhecimentoDeVoz.js    // Lógica para capturar e processar o comando de voz do usuário
+     └── validacao.js    // Lógica para validar o palpite do usuário e interagir com a interface do jogo
+```
 
 ## Tecnologias Utilizadas
 HTML5: Estruturação da página.
