@@ -39,12 +39,12 @@ Abra o arquivo index.html em um navegador.
 
 
 ## Estrutura do Projeto
-├── index.html             // Página principal do jogo
-├── style.css              // Estilos para a página
-└── app/
-    ├── sortearNumero.js    // Lógica para gerar o número secreto e exibir os valores mínimos e máximos
-    ├── reconhecimentoDeVoz.js    // Lógica para capturar e processar o comando de voz do usuário
-    └── validacao.js    // Lógica para validar o palpite do usuário e interagir com a interface do jogo
+- ├── index.html             # Página principal do jogo
+- ├── style.css              # Estilos para a página
+- └── app/
+    - ├── sortearNumero.js   # Lógica para gerar o número secreto e exibir os valores mínimos e máximos
+    - ├── reconhecimentoDeVoz.js # Lógica para capturar e processar o comando de voz do usuário
+    - └── validacao.js       # Lógica para validar o palpite do usuário e interagir com a interface do jogo
 
 
 ## Tecnologias Utilizadas
