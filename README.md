@@ -50,8 +50,8 @@ Abra o arquivo index.html em um navegador.
 ```
 
 ## Tecnologias Utilizadas
-HTML5: Estruturação da página.
-CSS3: Estilização da interface.
-JavaScript: Lógica do jogo e manipulação do DOM.
-API de Reconhecimento de Voz: Para capturar e processar comandos de voz do usuário.
+- HTML5: Estruturação da página.
+- CSS3: Estilização da interface.
+- JavaScript: Lógica do jogo e manipulação do DOM.
+- API de Reconhecimento de Voz: Para capturar e processar comandos de voz do usuário.
  
